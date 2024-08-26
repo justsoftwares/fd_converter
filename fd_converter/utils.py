@@ -1,5 +1,7 @@
-from pathlib import Path
+from __future__ import annotations
+
 from os import system
+from pathlib import Path
 from subprocess import check_output
 
 

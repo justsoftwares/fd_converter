@@ -1,4 +1,6 @@
-from .utils import q, qp, img_to_video, get_video_size
+from __future__ import annotations
+
+from .utils import qp, img_to_video, get_video_size
 
 default_ffparams = '-c:a aac -c:v h264_nvenc -b:a 224k -b:v 5M'
 
@@ -41,4 +43,5 @@ def get_ffmpeg_cmd(video, audio, subs, logo, intro, intro_img, logo_height, ffmp
     else:
         cmd += f'-map "[vp]" -map 1:a '
     cmd += f'{ffparams} {out}'
+    print(cmd)
     return cmd
