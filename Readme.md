@@ -10,7 +10,7 @@ Visit [scoop.sh](https://scoop.sh/) or [python.org](https://www.python.org/downl
 
 usage: `python -OOm fd_converter.gui`
 
-![main.png](https://raw.githubusercontent.com/justsoftwares/fd_converter/master/screenshots/main.png)
+![main.png](https://i6.imageban.ru/out/2024/08/26/9a94bd3cf700e3659c285c2faae7f1d4.png)
 
 ## CLI
 
